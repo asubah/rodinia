@@ -1,0 +1,7 @@
+/data/bfs/graph1MW_6.txt filter=lfs diff=lfs merge=lfs -text
+/data/cfd/missile.domn.0.2M filter=lfs diff=lfs merge=lfs -text
+/data/heartwall/test.avi filter=lfs diff=lfs merge=lfs -text
+/data/kmeans/819200.txt filter=lfs diff=lfs merge=lfs -text
+/data/kmeans/kdd_cup filter=lfs diff=lfs merge=lfs -text
+/data/leukocyte/testfile.avi filter=lfs diff=lfs merge=lfs -text
+/data/mummergpu/NC_003997_q100bp.fna filter=lfs diff=lfs merge=lfs -text
