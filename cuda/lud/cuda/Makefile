@@ -1,6 +1,7 @@
 CC = gcc
 NVCC = nvcc
 
+
 DEFS += \
 		-DGPU_TIMER \
 		$(SPACE)
@@ -8,7 +9,7 @@ DEFS += \
 NVCCFLAGS += -I../common \
 			 -O3 \
 			 -use_fast_math \
-			 -arch=sm_13 \
+			 -arch=sm_75 \
 			 -lm \
 			 $(SPACE)
 

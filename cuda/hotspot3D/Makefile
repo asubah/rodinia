@@ -10,7 +10,7 @@ EXE = 3D
 
 OUTPUT = *.out
 
-FLAGS = -g -G #-arch sm_20 --ptxas-options=-v
+FLAGS = -g -G #-arch $(SM_VERSIONS) --ptxas-options=-v
 release: $(SRC)
 	$(CC) $(KERNEL_DIM) $(FLAGS) $(SRC) -o $(EXE) -I$(INCLUDE) -L$(CUDA_LIB_DIR) 
 

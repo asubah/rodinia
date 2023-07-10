@@ -105,42 +105,42 @@
 					<Values>
 						<EnumValue
 							Value="0"
-							Switch="-arch compute_10"
+							Switch="-arch $(CUDA_ARCH)"
 							DisplayName="1.0 (virtual) Arch"
 						/>
 						<EnumValue
 							Value="1"
-							Switch="-arch compute_11"
+							Switch="-arch $(CUDA_ARCH)"
 							DisplayName="1.1 (virtual) Arch"
 						/>
 						<EnumValue
 							Value="2"
-							Switch="-arch compute_12"
+							Switch="-arch $(CUDA_ARCH)"
 							DisplayName="1.2 (virtual) Arch"
 						/>
 						<EnumValue
 							Value="3"
-							Switch="-arch compute_13"
+							Switch="-arch $(CUDA_ARCH)"
 							DisplayName="1.3 (virtual) Arch"
 						/>
 						<EnumValue
 							Value="4"
-							Switch="-arch sm_10"
+							Switch="-arch $(SM_VERSIONS)"
 							DisplayName="1.0 (hardware) Arch"
 						/>
 						<EnumValue
 							Value="5"
-							Switch="-arch sm_11"
+							Switch="-arch $(SM_VERSIONS)"
 							DisplayName="1.1 (hardware) Arch"
 						/>
 						<EnumValue
 							Value="6"
-							Switch="-arch sm_12"
+							Switch="-arch $(SM_VERSIONS)"
 							DisplayName="1.2 (hardware) Arch"
 						/>
 						<EnumValue
 							Value="7"
-							Switch="-arch sm_13"
+							Switch="-arch $(SM_VERSIONS)"
 							DisplayName="1.3 (hardware) Arch"
 						/>
 					</Values>
@@ -156,42 +156,42 @@
 					<Values>
 						<EnumValue
 							Value="0"
-							Switch="-code compute_10"
+							Switch="-code $(CUDA_ARCH)"
 							DisplayName="1.0 (virtual) code"
 						/>
 						<EnumValue
 							Value="1"
-							Switch="-code compute_11"
+							Switch="-code $(CUDA_ARCH)"
 							DisplayName="1.1 (virtual) code"
 						/>
 						<EnumValue
 							Value="2"
-							Switch="-code compute_12"
+							Switch="-code $(CUDA_ARCH)"
 							DisplayName="1.2 (virtual) code"
 						/>
 						<EnumValue
 							Value="3"
-							Switch="-code compute_13"
+							Switch="-code $(CUDA_ARCH)"
 							DisplayName="1.3 (virtual) code"
 						/>
 						<EnumValue
 							Value="4"
-							Switch="-code sm_10"
+							Switch="-code $(SM_VERSIONS)"
 							DisplayName="1.0 (hardware) code"
 						/>
 						<EnumValue
 							Value="5"
-							Switch="-code sm_11"
+							Switch="-code $(SM_VERSIONS)"
 							DisplayName="1.1 (hardware) code"
 						/>
 						<EnumValue
 							Value="6"
-							Switch="-code sm_12"
+							Switch="-code $(SM_VERSIONS)"
 							DisplayName="1.2 (hardware) code"
 						/>
 						<EnumValue
 							Value="7"
-							Switch="-code sm_13"
+							Switch="-code $(SM_VERSIONS)"
 							DisplayName="1.3 (hardware) code"
 						/>
 					</Values>
